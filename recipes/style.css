@@ -1,0 +1,39 @@
+
+p {
+color: blue;
+background-color: yellow;
+}
+
+.ah {
+color: green;
+background-color: yellow;
+text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+color: yellow;
+background-color: blue;
+}
+
+#ul { color: yellow; background-color; blue; }
+
+#ul li {
+color: blue;
+background-color: yellow;
+3x}
+
+#ol {
+color: yellow;
+background-color: blue;
+}
+
+#ol li {
+color: blue;
+background-color: yellow;
+}
