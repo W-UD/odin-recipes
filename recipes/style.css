@@ -1,13 +1,17 @@
 
 p {
+border: 1px solid blue;
+padding: 0px;
 color: blue;
 background-color: yellow;
 }
 
 .ah {
+padding: 0px;
+margin: 10px;
+border: 0px;
 color: green;
 background-color: yellow;
-text-align: center;
 }
 
 
@@ -17,16 +21,25 @@ h3,
 h4,
 h5,
 h6 {
+margin: 0px;
+border: 3px solid white;
+padding: 10px;
 color: yellow;
 background-color: blue;
 }
 
-#ul { color: yellow; background-color; blue; }
+#ul {
+color: yellow;
+background-color; blue;
+}
 
 #ul li {
+margin: 0px;
+border: 0px;
+padding: 0px;
 color: blue;
 background-color: yellow;
-3x}
+}
 
 #ol {
 color: yellow;
@@ -34,6 +47,9 @@ background-color: blue;
 }
 
 #ol li {
+margin: 5px solid white;
+border: 2px;
+padding: 3px solid white;
 color: blue;
 background-color: yellow;
 }
