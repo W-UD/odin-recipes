@@ -48,8 +48,7 @@ body {
 }
 
 body {
-    margin-bottom: 0px;
-    padding: 2px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,7 +90,11 @@ h2 {
     padding: 5px;
     list-style-type: none;
     gap: 50px;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.list-bg li {
+    align-self: center;
 }
 
 .hp {
