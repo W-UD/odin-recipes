@@ -1,7 +1,9 @@
 html,
 body {
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: 100%;
+    <!--width: 1920px; -->
+    <!--height: 1080px; -->
     margin: 50px;
     padding: 100px;
 }
@@ -30,8 +32,8 @@ body {
     justify-content: center;
     align-items: center;
     align-self: center;
-    width: 1000px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     border: 3px solid #523A1E;
     padding: 5px;
     margin: 2px;
@@ -56,6 +58,14 @@ body {
     background-color: #DDFDEC;
 }
 
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
 h1,
 h2 {
     width: 100%;
@@ -69,7 +79,6 @@ h2 {
 }
 
 .title-bg {
-    margin-bottom: 0;
     width: 100%;
     height: 100%;
 }
@@ -89,12 +98,13 @@ h2 {
     background-color: #308A73;
     padding: 5px;
     list-style-type: none;
-    gap: 50px;
+    gap: 30px;
     font-size: 30px;
 }
 
 .list-bg li {
-    align-self: center;
+    flex: 1;
+    align-self: self-start;
 }
 
 .hp {
@@ -121,8 +131,9 @@ h2 {
 }
 
 .p-bg {
+    
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     width: 100%;
     height: 100%
     padding: 3px;
