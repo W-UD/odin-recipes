@@ -8,3 +8,7 @@ The project on doing Recepies in html format:
 - attribute and values.
 - p.
 - and more.
+
+new update:
+- add and edit css
+- flexbox
