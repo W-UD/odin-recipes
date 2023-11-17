@@ -1,15 +1,18 @@
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 2px;
+html,
+body {
+    width: 1920px;
+    height: 1080px;
+    margin: 50px;
+    padding: 100px;
 }
 
 .index-p {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 100px;
 }
 
 .index-list {
@@ -18,7 +21,7 @@ html {
     flex-direction: column;
     justify-content: center;
     border: 3px solid black;
-    gap: 10px; 
+    gap: 100px; 
 }
 
 .index-list p {
@@ -27,7 +30,8 @@ html {
     justify-content: center;
     align-items: center;
     align-self: center;
-    height: auto;
+    width: 1000px;
+    height: 800px;
     border: 3px solid #523A1E;
     padding: 5px;
     margin: 2px;
@@ -40,57 +44,70 @@ html {
     text-decoration: none;
     color: #DDFDEC;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 body {
-    width: 100%;
-    height: 100%;
     margin-bottom: 0px;
     padding: 2px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color: #DDFDEC;
 }
 
 h1,
 h2 {
+    width: 100%;
+    height: 100%;
     border: 4px solid none;
     background-color: #F5182F;
     text-align: center;
     color: #DDFDEC;
-    border-radius: 10px;
-    padding: 3px;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 .title-bg {
     margin-bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .list-bg {
+    width: 100%;
+    height: 100%
     margin: 15px;
     color: #DDFDEC;
     display: flex;
     flex-direction: column;
-    border: 0px 2px;
+    border: 0px 20px;
     border-style: solid;
     border-color: #523A1E;
     justify-content: center;
-    align-items: first-flex;
+    align-items: center;
     background-color: #308A73;
     padding: 5px;
     list-style-type: none;
-    gap: 15px;
+    gap: 50px;
+    font-size: 25px;
 }
 
 .hp {
-    border: 2px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%
+    border: 50px;
     box-shadow: 5px 5px #523A1E;
     margin: 0;
 }
 
 .ah {
+    font-size: 25px;
+    width: 100%;
+    height: 100%
     margin: 0px;
     background-color: #308A73;
     text-align: center;
@@ -101,6 +118,10 @@ h2 {
 }
 
 .p-bg {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100%
     padding: 3px;
     background: #308A73;
     color: #DDFDEC;
