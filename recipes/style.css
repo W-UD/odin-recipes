@@ -16,11 +16,19 @@ body {
     align-items: center;
     font-size: 100px;
     gap: 50px;
+    margin: 0px;
 }
 
 .index-p h1 {
-    margin: 2px;
-    width: 100%;      
+    margin: 0px;
+    width: 100%;     
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12rem;
+    border-radius: 0px;
+    box-shadow: 4px 4px 4px #ccc, 4px 4px 4px #bbb, 6px 6px 6px #aaa;
 }
 
 .index-list {
@@ -33,6 +41,7 @@ body {
 }
 
 .index-list p {
+    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +53,9 @@ body {
     height: 600px;
     background-color: #308A73;
     border-radius: 100px;
-    box-shadow: 20px 20px light-grey;
+    box-shadow: 4px 4px 4px #ccc, 4px 4px 4px #bbb, 6px 6px 6px #aaa;
 }
+
 
 
 .index-list a {
